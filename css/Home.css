@@ -1,0 +1,38 @@
+.left-schedule {
+  border-top: 1.5px solid blue;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(6, 1fr);
+  font-size: 12px;
+  text-align: center;
+  grid-gap: 1.5px;
+}
+
+.subject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1.5px solid red;
+}
+
+.subject-container {
+  display: block;
+}
+
+.horario-header {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1.5px solid blue;
+}
+
+.days {
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1.5px solid blue;
+}
